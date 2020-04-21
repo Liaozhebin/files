@@ -1,16 +1,16 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
+# Path to your oh-my-zsh installation.   # zsh 安装路径
 export ZSH="/root/.oh-my-zsh"
-
-# Set name of the theme to load --- if set to "random", it will
+ 
+# Set name of the theme to load --- if set to "random", it will        # 设置 zsh 的主题
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="bira"
 
-# Set list of themes to pick from when loading at random
+# Set list of themes to pick from when loading at random              # 设置 zsh 在哪些主题中进行随机
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
@@ -68,8 +68,8 @@ ZSH_THEME="bira"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git fzf history-substring-search vi-mode extract pip docker docker-compose alias-finder)
 #option plugins=（z timer adb cp ）	z是路径历史记录插件		adb 是 adb 的命令补全插件；cp 是rsync的简化插件；tmux 是 tmux 的插件；web-search plugin：适合桌面，方便的打开输入关键词打开对应搜索引擎，类似于 Listary 的网页搜索
+plugins=(git fzf history history-substring-search vi-mode extract pip docker docker-compose alias-finder)
 
 source $ZSH/oh-my-zsh.sh
 
