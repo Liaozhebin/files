@@ -69,7 +69,7 @@ ZSH_THEME="bira"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 #option plugins=（z timer adb cp ）	z是路径历史记录插件		adb 是 adb 的命令补全插件；cp 是rsync的简化插件；tmux 是 tmux 的插件；web-search plugin：适合桌面，方便的打开输入关键词打开对应搜索引擎，类似于 Listary 的网页搜索
-plugins=(git fzf history history-substring-search vi-mode extract pip docker docker-compose alias-finder)
+plugins=(git fzf history history-substring-search zsh-interactive-cd vi-mode extract pip docker docker-compose alias-finder)
 
 source $ZSH/oh-my-zsh.sh
 
