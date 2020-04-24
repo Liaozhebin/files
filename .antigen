@@ -1,0 +1,46 @@
+# 导入下载好的 .antigen.zsh 文件
+source $HOME/.antigen.zsh
+    
+# Load the oh-my-zsh's library 使用oh-my-zsh
+antigen use oh-my-zsh
+
+# ----------------主题theme---------------
+# Load the theme
+# Internal theme
+	#antigen theme bira	
+	
+#Extra themes:
+	antigen theme romkatv/powerlevel10k
+
+# --------------Plugin插件----------------
+# antigen bundle 
+# oh-my-zsh的默认插件包 Bundles from the default repo (robbyrussell's oh-my-zsh) 
+    antigen bundle git
+    antigen bundle fzf
+    antigen bundle history
+    antigen bundle history-substring-search
+    antigen bundle zsh-interactive-cd
+    antigen bundle vi-mode
+    antigen bundle extract 
+    antigen bundle docker
+    antigen bundle docker-compose
+    antigen bundle alias-finder
+# ---------
+# Load Extra Plugins
+	# z.lua 快速路径跳转插件
+	antigen bundle skywind3000/z.lua
+	
+    # Syntax highlighting bundle.
+    antigen bundle zsh-users/zsh-syntax-highlighting
+
+    # Fish一样的命令提示插件 Fish-like auto suggestions 
+    antigen bundle zsh-users/zsh-autosuggestions
+
+    # Extra zsh completions
+    # antigen bundle zsh-users/zsh-completions
+    
+    
+
+
+# Tell antigen that you're done
+antigen apply
