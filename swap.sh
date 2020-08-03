@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 #Blog:https://www.moerats.com/
 
-Green="\033[32m"
+Green="\033[1;32m"
 Font="\033[0m"
-Red="\033[31m" 
+Red="\033[1;31m" 
 
 #root权限
 root_need(){
