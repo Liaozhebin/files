@@ -49,4 +49,7 @@ antigen apply
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+alias iftop100='iftop -m 100m'
+alias iftop1000='iftop -m 1000m'
 alias lzd='docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock -v ~/.config/lazydocker:/.config/jesseduffield/lazydocker lazyteam/lazydocker'
+alias speedtest_docker='docker run -it --rm  pschmitt/speedtest'
